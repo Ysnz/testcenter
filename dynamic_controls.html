@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<html>
+<head>
+  <script src="/js/vendor/298279967.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Clarusway Practice</title>
+  <link href="app.css" rel="stylesheet">
+  <link href="font-awesome.css" rel="stylesheet">
+  <link href="registration.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<!--  <script src="/js/vendor/jquery-1.11.3.min.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--  <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>-->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="foundation.js"></script>
+  <script src="foundation.alerts.js"></script>
+  <script>
+      $(document).foundation();
+  </script>
+<!--  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js"></script>
+  
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-light">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+  </ul>
+</nav>
+<div class="container">
+  <div class="row">
+    <div id="flash-messages" class="large-12 columns">
+    </div>
+  </div>
+  <div class="row">
+    <div id="content" class="large-12 columns">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+  function swapInput() {
+    disableButton("#input-example button");
+    clearMessage();
+    showDelay("#input-example button");
+    pauseThenToggleControls("input");
+  }
+
+  function swapCheckbox (){
+    disableButton("#checkbox-example button");
+    clearMessage();
+    showDelay("#checkbox-example button");
+    pauseThenToggleControls("checkbox");
+  };
+
+  function disableButton(locator) {
+    $(locator).attr("disabled", true);
+  };
+
+  function clearMessage() {
+    if ($("#message").length) {
+       $("#message").first().remove();
+    }
+  };
+
+  function showDelay(locator) {
+    $(locator).after("<div id='loading'>Wait for it... <img src='/img/ajax-loader.gif'></div></br>");
+  };
+
+  function pauseThenToggleControls(target) {
+    setTimeout(function() {
+      if (target === "checkbox") {
+        toggleCheckboxControls();
+      } else if (target === "input") {
+        toggleInputControls();
+      }
+    }, 3000 );
+  };
+
+  function toggleCheckboxControls() {
+    var btn = $("#checkbox-example button").first();
+    var check = $("#checkbox").first();
+    var load = $("#loading");
+    if ( btn.text() == "Remove") {
+      check.remove();
+      btn.text("Add");
+      btn.after("<p id='message'>It's gone!</p>");
+      btn.attr("disabled", false);
+      load.hide();
+    } else {
+      btn.text("Remove");
+      btn.after("<div><input type='checkbox' id='checkbox'> A checkbox</div>");
+      btn.after("<p id='message'>It's back!</p>");
+      btn.attr("disabled", false);
+      load.hide();
+    }
+  };
+
+  function toggleInputControls() {
+    var btn = $("#input-example button").first();
+    var input = $("#input-example input").first();
+    var load = $("#loading");
+    if ( btn.text() == "Enable") {
+      input.prop("disabled", false)
+      btn.after("<p id='message'>It's enabled!</p>");
+      btn.text("Disable");
+      btn.attr("disabled", false);
+      load.hide();
+    } else {
+      btn.text("Enable");
+      input.prop("disabled", true)
+      btn.after("<p id='message'>It's disabled!</p>");
+      btn.attr("disabled", false);
+      load.hide();
+    }
+  };
+</script>
+<div class="example">
+  <h4>Dynamic Controls</h4>
+  <p>This example demonstrates when elements (e.g., checkbox, input field, etc.) are changed asynchronously.</p>
+
+  <h4 class=subheader>Remove/add</h4>
+  </br>
+  <form id="checkbox-example">
+    <div id="checkbox"><input type="checkbox" label="blah"> A checkbox</div>
+    <button autocomplete="off" type="button" onclick="swapCheckbox()">Remove</button>
+  </form>
+
+  <hr>
+
+  </br>
+  <h4 class=subheader>Enable/disable</h4>
+  </br>
+  <form id="input-example">
+    <input type="text" disabled style="width: 30%;">
+    <button autocomplete="off" type="button" onclick="swapInput()">Enable</button>
+  </form>
+<div>
+
+    </div>
+  </div>
+  <div id='page-footer' class="row">
+    <div class="large-4 large-centered columns">
+      <hr>
+      <div style="text-align: center;">Powered by <a target="_blank" href="https://clarusway.com/"><img src="logo1.png" alt="logo"></a></div>
+      </div>
+  </div>
+</div>
+</body>
+</html>
