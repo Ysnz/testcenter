@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<html>
+<head>
+  <script src="298279967.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Practice</title>
+  <link href="app.css" rel="stylesheet">
+  <link href="font-awesome.css" rel="stylesheet">
+  <link href="registration.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<!--  <script src="/js/vendor/jquery-1.11.3.min.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--  <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>-->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="foundation.js"></script>
+  <script src="foundation.alerts.js"></script>
+  <script>
+      $(document).foundation();
+  </script>
+<!--  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js"></script>
+  
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-light">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+  </ul>
+</nav>
+<div class="container">
+  <div class="row">
+    <div id="flash-messages" class="large-12 columns">
+    </div>
+  </div>
+  <div class="row">
+    <div id="content" class="large-12 columns">
+      <style>
+#menu {
+    z-index: 100;
+    position: absolute;
+    left: 30%;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    float: left;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+#menu li a {
+    z-index: 100;
+    background: #ffffff;
+    display: block;
+    height: 2em;
+    line-height: 2em;
+    width: 6em;
+    border:1px solid #ddd;
+    color: #0d2474;
+    text-decoration:none;
+    text-align: center;
+}
+</style>
+<div class='example'>
+  <h3>Floating Menu</h3>
+  <div id='menu'>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </div>
+  <div class='row'>
+    <div class='scroll large-10 columns large-centered'>
+        <p>Et laborum sint et ut vero in qui corporis iusto neque maiores ut nostrum et excepturi similique magnam fugit quos quas perferendis quia dolor dolor libero eos rerum iusto perspiciatis quod eaque error asperiores ipsum ipsa molestiae ut quia aut eum nemo quas asperiores qui natus ad est magni repellat et et doloribus qui rerum et minima est dolor deleniti sit ipsum id quam repudiandae nobis reprehenderit quis aut minima nobis rem sit placeat iure assumenda optio quasi consequatur dignissimos aut velit hic facilis pariatur est id facere voluptatem dolor cum officiis consectetur aut fuga libero deleniti ut quis aut eaque non quia quidem incidunt labore qui ab dolores sit nesciunt alias aliquam vel excepturi aut ut quo qui et recusandae maxime quam voluptatibus ad laboriosam hic saepe explicabo sed voluptates eum dicta itaque est enim maiores autem molestiae dolorem amet voluptas et enim autem voluptatem et officia repellendus aperiam accusamus sint aut eius aut dolore rerum quo consequatur iure quia debitis nemo voluptatum delectus animi voluptas et veritatis eveniet voluptas laudantium consequatur cum et modi sed iste velit voluptatum sequi at dicta impedit voluptatem quis occaecati rerum sed doloremque quo eos similique explicabo qui omnis veniam ratione esse qui provident illo ex quibusdam soluta consequatur minus velit et omnis dolorum rerum sunt dignissimos quasi nostrum accusantium et numquam ex quidem in possimus beatae sapiente a dolorum et nihil voluptatem quod ut rem qui id reiciendis qui nisi sed ut molestiae repudiandae ducimus nesciunt officiis aut porro accusamus consequuntur nihil dolores repellendus inventore quae vel facilis harum nihil placeat doloribus odio ipsam dolorem reiciendis deserunt pariatur molestias ipsa voluptate consequatur est veritatis culpa tempore adipisci assumenda et non et ullam molestiae quibusdam est autem architecto quia non architecto odit voluptas corporis in facere vel aperiam praesentium doloremque expedita itaque fugit.</p>
+        <p>Labore sit nam ut a perspiciatis velit laboriosam fugiat unde quos quibusdam laboriosam minima amet qui quia quo est nihil voluptas et dolorem quo aliquam asperiores aperiam maiores et dolores autem voluptatum doloribus enim qui distinctio nemo ut occaecati ipsa tenetur numquam et odio ut in nihil dolor itaque et dolore qui soluta deserunt repellendus perferendis labore commodi libero quisquam deserunt vel cupiditate dolorem ipsam quidem recusandae eum earum quam veniam laudantium iure dolor corrupti praesentium omnis voluptatem odit quia quia impedit in quidem dignissimos velit velit error fugit sed quod sapiente ratione nulla aut vel molestias nobis quibusdam quasi voluptas illo occaecati iusto voluptatibus vitae inventore nisi animi adipisci optio alias eligendi eveniet incidunt dicta dolores corporis aut vitae ab eligendi et soluta illum sunt id suscipit totam voluptatem unde aut explicabo nostrum quae aliquam est esse rerum quae cumque assumenda assumenda nihil et porro hic omnis in voluptatem aliquid pariatur hic reprehenderit at nesciunt ea dolores vero eum dolor facilis non voluptates natus sit non magnam et magni voluptatem ea facere consequuntur qui dolore modi rerum ea quam consequatur consequatur amet et culpa dignissimos et molestiae sed omnis et atque id nihil illo dolorem omnis eum possimus adipisci eum et rem sint totam sequi ut esse quo sed accusantium ut odit beatae sint iste tempore facilis quis placeat aut ut non delectus est eos laudantium harum repellendus qui sit possimus voluptatem aut corporis iste magni voluptate rerum minus qui deleniti consequatur qui ut accusamus quis tempora sint nobis numquam sed debitis saepe vel sapiente voluptates ab aspernatur distinctio et natus voluptas quaerat autem voluptate dicta voluptatem veritatis fugit repellat officia voluptas similique ipsa odio similique sint nulla et eos aliquid ut minima nam temporibus harum maiores provident reprehenderit aut excepturi est voluptatem velit itaque eius quia doloremque dolores.</p>
+        <p>Nihil neque porro autem tenetur omnis error ducimus aliquid voluptatum rerum tempore excepturi nihil quis impedit sunt et velit voluptatum rerum temporibus explicabo in atque qui quis suscipit qui id facilis occaecati et minima consequatur amet sapiente quaerat vitae qui et beatae repellendus pariatur dolore amet eos praesentium itaque esse saepe explicabo et omnis non sed culpa vero illo ea sunt modi natus tempora sit ea libero aut non voluptas neque sint voluptatem delectus mollitia eius eius inventore consequatur qui expedita repellat nihil ut quam aut maiores ullam necessitatibus ex dolores recusandae odit qui eum doloribus suscipit id ipsam soluta aut dolores voluptate perspiciatis veniam sint pariatur officiis consequuntur voluptatem labore sint aperiam consectetur cum optio molestias non inventore maxime dolores blanditiis qui animi autem doloremque illo est beatae non quidem harum veritatis ut assumenda sit cumque eaque hic quasi similique unde expedita ut tenetur corrupti sit provident voluptates distinctio odit facere officia qui velit animi enim quo sed minima fuga quibusdam hic aut rerum iure vel vel quod a voluptas sapiente voluptas nam necessitatibus commodi iure laudantium dolorem omnis consequuntur velit fugiat aperiam illum at rem officiis consectetur dolor ut eum ipsa cupiditate est deserunt quia illum possimus quo quam enim eveniet voluptatibus et tempora est iste ratione laboriosam accusamus earum excepturi at minus modi nesciunt asperiores enim laboriosam deserunt dolorum reprehenderit mollitia et et commodi magnam velit nisi in culpa in aliquam aut atque earum optio dolore est sunt odio nulla assumenda est consequatur quos cumque ut debitis quia dolorem qui quae dolorum et voluptates nisi ipsum iusto et ut dicta nostrum voluptas quisquam sed ex quia ea id eum eos vitae nemo dicta perferendis saepe ipsum debitis dolorem quas voluptatem laudantium exercitationem dolores laborum iste consequatur aut ut et quia quia nemo nostrum aut impedit consequatur et.</p>
+        <p>Cupiditate sit sequi ex optio fugiat deserunt sint eaque doloremque expedita et qui tempora qui autem laudantium magnam facere et ad et odio modi perspiciatis qui quasi eum adipisci quia harum voluptas odit id odit cum rerum fugit molestiae fuga nisi voluptatem voluptatibus officia quia autem nam et aut accusamus dolore minus magnam veniam placeat quae eveniet nobis est ut ut dolorem earum vitae quia doloremque non voluptas eos soluta officiis ut saepe inventore est quia enim natus qui hic sunt sint dolor neque in error reiciendis officiis necessitatibus quia alias et saepe harum rem iusto et ea et labore maxime blanditiis aut enim voluptatibus asperiores dolores ut dicta ipsum rerum aut distinctio ut qui fugit eos repudiandae sequi et aspernatur tenetur aut ad omnis corrupti sunt aspernatur beatae esse sint porro aut facilis vero veniam assumenda eligendi eius nulla qui alias nesciunt nobis sint aliquam fugiat at deserunt repellendus quia laboriosam vero quidem quas aut illum vel expedita et aut quo eligendi sit ratione odio ab provident est iste et enim temporibus mollitia ex eius non est velit facilis sit corporis rerum sit incidunt iure praesentium voluptas ea omnis ut ut aliquid et ut quisquam explicabo nesciunt atque provident omnis in deleniti repellat rem eos laborum molestiae tenetur eum quos consequatur dolorem consequatur earum optio dolores asperiores sit quisquam aut exercitationem et aut placeat aperiam voluptatem consequuntur vitae veritatis iure nihil non id iusto velit hic est in laborum atque consequatur recusandae et maiores nostrum nihil minima qui necessitatibus ipsa molestias magni quaerat quis aliquam nisi ea ut repudiandae quo itaque exercitationem sed vel mollitia possimus fuga nihil occaecati quod impedit dignissimos sed qui culpa sunt et numquam sit quidem id temporibus perspiciatis perferendis ipsam a in voluptatum sed delectus voluptas aut rerum perferendis dicta ut dolor aliquid rerum.</p>
+        <p>Eius recusandae corrupti minima ducimus dignissimos illo fugit laboriosam corrupti minima iusto non exercitationem aut expedita quia aut quod tempore omnis numquam magni sit soluta voluptates aut laudantium voluptas voluptatibus beatae quam nisi exercitationem quis aut non et aperiam neque porro molestiae ipsam facere qui qui est omnis nihil explicabo sed voluptatem amet ab dolores ipsum illo labore molestiae quasi ut atque fugiat officia ut distinctio molestiae vel rerum et voluptatum nihil et aut tempora sunt dolor eos possimus mollitia voluptatem aspernatur itaque vitae excepturi ad consequatur sed adipisci ipsam et sapiente quisquam totam vel est quidem ut omnis ipsa expedita esse delectus eum sapiente qui perspiciatis qui eveniet nulla excepturi ducimus ex eveniet tenetur hic autem perferendis ut in quas odit quo quis porro harum aut et quo alias aperiam id repudiandae deleniti eos et non amet doloribus aut est dolore quia velit voluptas ad dolorum et laboriosam enim tenetur non nam quis quos quia maiores eligendi praesentium sit et necessitatibus doloremque natus accusamus est suscipit facere fugiat laborum esse dolorem minus quis dolores adipisci qui optio iste aliquam corporis laudantium et sequi facilis repudiandae repellat consequatur voluptatem incidunt facilis culpa debitis dolor illum maxime nihil at omnis nobis vel eos repellendus cupiditate et enim nesciunt cum quidem autem voluptas blanditiis enim officiis maxime qui est atque culpa sit cumque saepe ratione odio reprehenderit aut molestias earum ipsum omnis nisi hic temporibus natus id eligendi ut nostrum ea rerum officiis autem aut vel animi quo ullam voluptatem eum dolor blanditiis quae necessitatibus impedit iure veniam vitae tempora dignissimos voluptate voluptatum est quaerat asperiores dicta est mollitia maiores inventore soluta accusantium consequatur vero sit in animi placeat dolores iusto rem sunt aspernatur voluptates accusantium quia sit consequatur sequi ut modi at rerum assumenda fuga commodi et doloribus officia deleniti sunt.</p>
+        <p>Esse possimus voluptates quo quod repellendus veniam veniam nisi fuga veritatis praesentium nihil aliquid et sint excepturi ducimus earum voluptatum odio quis eos aspernatur saepe suscipit quia iure maxime exercitationem ex sit harum amet porro maiores quas est fugit sint excepturi laudantium nihil qui blanditiis voluptas quia cupiditate aut beatae adipisci expedita rerum nihil vel quos dolores nostrum dolor occaecati consequatur vel accusamus consequatur ipsam ut illo possimus voluptate aut dolore quo id repellat earum facere illum eum nam architecto recusandae iste facilis modi quae hic mollitia error rerum beatae quam voluptatem magni et aut quod consequuntur officiis ea voluptas molestiae tempore quaerat in repudiandae accusantium odit ea nam voluptas voluptas velit non deleniti ut quasi harum aut aut libero inventore vero illo omnis voluptatem maxime qui dicta nesciunt quam est omnis id officia quisquam atque optio doloremque nostrum sit enim ipsa vel veritatis dolorum aperiam omnis reiciendis sunt velit ex et voluptatem necessitatibus sapiente fugiat consectetur rem neque ducimus consequatur numquam pariatur aut in dolorum velit sit perspiciatis autem explicabo sequi doloribus blanditiis sed sed molestiae nihil mollitia natus similique accusamus distinctio et est autem iusto numquam ut dolore nobis similique ratione laboriosam at praesentium sed doloremque labore omnis quaerat et reprehenderit cum unde temporibus soluta culpa alias sint eos itaque laudantium et totam est animi et quia eum sit omnis qui voluptatum reiciendis commodi et minima cupiditate est eos eum quo qui sunt voluptas quia tempora dolorem culpa ut ab quia asperiores repudiandae perspiciatis in porro nisi eligendi corrupti sit consequatur molestias provident laboriosam quas quibusdam dignissimos error minus illum et repellat necessitatibus quo non ea dignissimos magnam nulla nemo saepe rerum esse officia quisquam eos incidunt sapiente aut eum quia in ut laborum optio commodi enim vel aut voluptatem modi iure autem libero a placeat doloribus ratione.</p>
+        <p>Aspernatur voluptatem consequatur voluptatem minima quod corrupti in sint fugiat non quia animi et quidem facilis eveniet sapiente veniam ipsum nulla culpa quia ullam molestiae esse distinctio inventore error voluptatem odio sequi deserunt sit commodi nobis quasi iure enim voluptate voluptatum quos qui sint maiores earum rerum aut minus ab recusandae temporibus quos culpa eos animi ut fugiat consequuntur omnis eum velit aut labore dignissimos fuga hic et est quaerat aut qui id mollitia ex qui aut debitis sed soluta nihil a rerum commodi iste necessitatibus aut itaque aut aliquam in laborum quis dolore explicabo molestias ut architecto ab pariatur mollitia aperiam vitae ex quaerat ut enim qui debitis asperiores repellat perferendis neque praesentium accusamus at sit consequatur voluptatibus cum dolor nesciunt totam velit esse qui dolorem aut et et delectus quae voluptatem rem qui impedit molestiae harum suscipit ipsum qui nemo veniam eos ut non maxime quis vel sit blanditiis deserunt sunt qui magnam saepe repellendus veritatis non officia natus tenetur est impedit dolores et officiis assumenda similique laboriosam nostrum recusandae doloribus repudiandae inventore in necessitatibus ut molestiae quo ipsam temporibus ad quasi dolores enim qui consequatur et libero dicta est voluptates ipsam alias et sunt autem pariatur iusto atque consequatur illo voluptatibus sunt vel reiciendis vero incidunt nesciunt eum magni aliquam dolor rerum placeat accusantium aut earum corporis voluptatem distinctio beatae excepturi perferendis dolorem quia totam voluptate maiores voluptates enim et fugit rerum voluptas accusantium natus et provident ducimus ut quam fugit omnis quis autem rem quibusdam omnis est sed sed placeat cupiditate vitae perspiciatis nisi veritatis sint et dolores exercitationem illum nihil dolorum omnis est laborum optio possimus error ipsa ut tempora amet expedita voluptas ratione eaque explicabo laudantium et et cumque odio et molestias rerum neque suscipit aut et ullam quis numquam architecto dolor non provident.</p>
+        <p>Vel nisi quae autem est in modi quia occaecati qui ut nulla omnis modi eum aliquid iusto eos nam labore tenetur facilis doloribus maxime et delectus ratione iusto quaerat et assumenda maiores est quis rem libero ea illo voluptates in perspiciatis beatae quis reiciendis placeat totam neque est optio neque incidunt ut voluptatem voluptatem porro distinctio quibusdam maxime sed natus nulla veritatis dolorum aut molestiae perferendis animi consequatur expedita alias odit et facilis voluptatem unde ut voluptas quidem possimus sit sint sed rerum qui repellat aliquid beatae nostrum nihil quisquam sed magnam doloremque vero voluptatibus qui qui quas et voluptatum magnam quo et sit quo adipisci saepe aut deserunt quos aperiam ad autem et in quod omnis quas voluptas dolores odit id alias ratione qui totam incidunt earum minima illum et ab esse suscipit enim sit vel dolores temporibus laudantium quasi est inventore dicta velit sit cum doloribus ut exercitationem aut fugit hic illum maiores soluta repellendus iste perspiciatis ut similique voluptates debitis qui cum facere tempora laborum ipsum minus atque assumenda eum nemo sed eos deleniti et non quia molestiae consequatur sint placeat non qui quaerat impedit excepturi a distinctio nesciunt sed mollitia quia reiciendis rerum qui quis et pariatur aperiam est quidem fuga velit quae nihil unde ut explicabo tenetur vel sit quia consectetur culpa autem dolorem consequuntur ducimus itaque non officia commodi praesentium harum error ut et accusantium eum laborum ex nobis voluptatem omnis necessitatibus ut quam ipsa culpa aut rerum recusandae excepturi quasi magni eaque corrupti sapiente a quisquam adipisci qui consequatur vitae aut et velit eligendi eius iste eaque accusamus fuga recusandae aut ut atque est exercitationem officiis vero dolor numquam sint occaecati aliquam enim ullam velit fugiat officiis et sapiente omnis et id aut temporibus ad hic delectus dolore iure voluptate quia pariatur dolorem.</p>
+        <p>Quis nam sed harum sint fugiat omnis quibusdam quaerat laudantium aperiam et non et qui ex veritatis ut pariatur dolores eos vel blanditiis distinctio non aut est aut consectetur est quia eum et velit repellat debitis vel dolor tenetur eligendi ut repellendus nam veniam ut dolor minus amet qui odio eum at eius possimus rerum dolorum quam omnis non id perferendis earum enim dolore ducimus sapiente facere enim itaque voluptas sed culpa tempore at ipsam sint quaerat ab aut perferendis iste et omnis odit cum aliquam quia asperiores enim et officiis iusto provident cupiditate occaecati ut rerum sit adipisci minima reprehenderit voluptatem soluta id esse nobis repellat illum quibusdam suscipit excepturi qui similique aspernatur rerum quos illo sunt suscipit alias perspiciatis incidunt voluptate dolorem quo rem aut molestiae aut sed eius nostrum minima iste necessitatibus rerum veritatis cupiditate dolorum beatae dignissimos est facilis placeat ipsa accusantium autem accusantium fuga autem voluptatem dolores voluptatem cum commodi rerum molestias incidunt nemo pariatur magnam aperiam sed omnis eum et et expedita deserunt quod vitae eaque repudiandae consequatur qui laboriosam ea et quas amet eum quis molestias qui totam hic quia ad error accusamus dolor facere odio voluptatum sequi explicabo facilis consequuntur doloremque occaecati voluptas quo ut sint saepe temporibus animi labore sed ut nisi aut eos voluptatem doloribus sit velit qui dolores recusandae omnis provident non nihil quae ab tempora tenetur est et maxime in ut natus consequatur ea voluptatem dolorem qui quisquam numquam quia et mollitia soluta atque ex minus a maiores laudantium officiis quos nobis consequatur et inventore dolore optio magnam quidem ratione explicabo quod nesciunt porro est autem sed cumque adipisci exercitationem rerum voluptatem tempore doloremque fugit excepturi dicta architecto distinctio eveniet quae assumenda veniam debitis magni accusamus aut aliquam sunt labore delectus libero ut voluptates maiores officia et sit.</p>
+        <p>Eum saepe suscipit odit architecto atque pariatur quaerat sed officia est minus aut molestiae facere aut commodi quidem qui ducimus ipsam quia quidem blanditiis eveniet in sed iure corrupti sed tempore corporis consectetur perferendis eveniet adipisci porro placeat qui earum quaerat et voluptas beatae repellat reprehenderit omnis quia omnis neque voluptatem facilis laboriosam libero ab soluta dicta mollitia autem expedita non tempore et sit laborum sed laudantium rerum vel sint non et rerum corporis neque optio sint nisi sequi repudiandae aut et totam ipsum qui officia nulla qui qui qui rem ut culpa non consequatur in a itaque et accusamus deserunt fuga aliquid explicabo dolores quo non sint culpa iste optio qui cupiditate nostrum quod assumenda maxime perspiciatis consequatur eligendi sit dolorem dolor nisi est aliquam enim quia dolores fugiat quia inventore corrupti reiciendis repellat consequatur asperiores voluptatibus labore est hic odio distinctio officiis fugit ex ut sint voluptatem ea ut nesciunt nam vel labore ut quasi fugit quam quas adipisci quo accusantium dolor accusamus ratione et in facilis voluptas aspernatur voluptatem dolorum quae vero quia amet laboriosam molestiae error animi ullam vel cumque molestias tenetur sit inventore a aspernatur ad illo quod iste ut magni incidunt quam cupiditate et rerum provident numquam occaecati vel omnis commodi ab et voluptates dolores voluptatem soluta qui ut ut possimus numquam vero maiores dolor nihil voluptatem necessitatibus porro animi praesentium omnis aut voluptas quis velit est harum impedit illum ipsam deleniti harum itaque quasi molestiae quisquam aut aliquid pariatur possimus delectus voluptatem vitae eos nemo earum modi repellendus repudiandae magnam dignissimos in autem velit fugiat ullam excepturi unde velit impedit veniam iure rem voluptatem quia velit veritatis reprehenderit cum exercitationem et sapiente est sed sit omnis id sunt dolore eius tenetur ut qui assumenda omnis unde incidunt deleniti placeat nobis consequuntur quia tempora.</p>
+    </div>
+  </div>
+</div>
+<script src='/js/vendor/stickyfloat.js'></script>
+<script>
+$('#menu').stickyfloat( {duration: 1} );
+</script>
+
+    </div>
+  </div>
+  <div id='page-footer' class="row">
+    <div class="large-4 large-centered columns">
+      <hr>
+      <div style="text-align: center;">Powered by <a target="_blank" href="https://clarusway.com/"><img src="logo1.png" alt="logo"></a></div>
+       </div>
+  </div>
+</div>
+</body>
+</html>
