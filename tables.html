@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<html>
+<head>
+  <script src="298279967.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Clarusway Practice</title>
+  <link href="app.css" rel="stylesheet">
+  <link href="font-awesome.css" rel="stylesheet">
+  <link href="registration.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<!--  <script src="/js/vendor/jquery-1.11.3.min.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--  <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>-->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="foundation.js"></script>
+  <script src="foundation.alerts.js"></script>
+  <script>
+      $(document).foundation();
+  </script>
+<!--  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js"></script>
+  
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-light">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+  </ul>
+</nav>
+<div class="container">
+  <div class="row">
+    <div id="flash-messages" class="large-12 columns">
+    </div>
+  </div>
+  <div class="row">
+    <div id="content" class="large-12 columns">
+      <script src="jquery.tablesorter.min.js"></script>
+<script>
+$(function(){
+  $("#table1").tablesorter();
+  $("#table2").tablesorter();
+});
+  $(document).ready(function() {
+        $('.cell').click(DeleteRow);
+      });
+
+    function DeleteRow(){
+      $(this).parents('tr').first().remove();
+    }
+</script>
+<style>
+  span {
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+  .tablesorter-headerAsc span   { background-image: url('images2.png');  }
+  .tablesorter-headerDesc span  { background-image: url('images1.png');    }
+</style>
+<div class="example">
+  <h3>Data Tables</h3>
+  <p>Often times when you see a table it contains data which is sortable -- sometimes with actions that can be taken within each row (e.g. edit, delete). And it can be challenging to automate interaction with sets of data in a table depending on how it is constructed.</p>
+
+  <h4>Example 1</h4>
+  <p>No Class or ID attributes to signify groupings of rows and columns</p>
+  <table id="table1" class="tablesorter">
+    <thead>
+      <tr>
+        <th><span>Last Name</span></th>
+        <th><span>First Name</span></th>
+        <th><span>Email</span></th>
+        <th><span>Due</span></th>
+        <th><span>Web Site</span></th>
+        <th><span>Action</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Smith</td>
+        <td>John</td>
+        <td>jsmith@gmail.com</td>
+        <td>$50.00</td>
+        <td>http://www.jsmith.com</td>
+        <td>
+          <a href='#edit'>edit</a>
+          <a class="cell" href='#delete'>delete</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Bach</td>
+        <td>Frank</td>
+        <td>fbach@yahoo.com</td>
+        <td>$51.00</td>
+        <td>http://www.frank.com</td>
+        <td>
+          <a href='#edit'>edit</a>
+          <a class="cell" href='#delete'>delete</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Doe</td>
+        <td>Jason</td>
+        <td>jdoe@hotmail.com</td>
+        <td>$100.00</td>
+        <td>http://www.jdoe.com</td>
+        <td>
+          <a href='#edit'>edit</a>
+          <a class="cell" href='#delete'>delete</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Conway</td>
+        <td>Tim</td>
+        <td>tconway@earthlink.net</td>
+        <td>$50.00</td>
+        <td>http://www.timconway.com</td>
+        <td>
+          <a href='#edit'>edit</a>
+          <a class="cell" href='#delete'>delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>Example 2</h4>
+  <p>Class and ID attributes to signify groupings of rows and columns</p>
+  <table id="table2" class="tablesorter">
+    <thead>
+      <tr>
+        <th><span class='last-name'>Last Name</span></th>
+        <th><span class='first-name'>First Name</span></th>
+        <th><span class='email'>Email</span></th>
+        <th><span class='dues'>Due</span></th>
+        <th><span class='web-site'>Web Site</span></th>
+        <th><span class='action'>Action</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class='last-name'>Smith</td>
+        <td class='first-name'>John</td>
+        <td class='email'>jsmith@gmail.com</td>
+        <td class='dues'>$50.00</td>
+        <td class='web-site'>http://www.jsmith.com</td>
+        <td class='action'>
+          <a href='#edit'>edit</a>
+          <a class="cell" href='#delete'>delete</a>
+        </td>
+      </tr>
+      <tr>
+        <td class='last-name'>Bach</td>
+        <td class='first-name'>Frank</td>
+        <td class='email'>fbach@yahoo.com</td>
+        <td class='dues'>$51.00</td>
+        <td class='web-site'>http://www.frank.com</td>
+        <td class='action'>
+          <a href='#edit'>edit</a>
+          <a class="cell" href='#delete'>delete</a>
+        </td>
+      </tr>
+      <tr>
+        <td class='last-name'>Doe</td>
+        <td class='first-name'>Jason</td>
+        <td class='email'>jdoe@hotmail.com</td>
+        <td class='dues'>$100.00</td>
+        <td class='web-site'>http://www.jdoe.com</td>
+        <td class='action'>
+          <a href='#edit'>edit</a>
+          <a class="cell" href='#delete'>delete</a>
+        </td>
+      </tr>
+      <tr>
+        <td class='last-name'>Conway</td>
+        <td class='first-name'>Tim</td>
+        <td class='email'>tconway@earthlink.net</td>
+        <td class='dues'>$50.00</td>
+        <td class='web-site'>http://www.timconway.com</td>
+        <td class='action'>
+          <a href='#edit'>edit</a>
+          <a class="cell" href='#delete'>delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+    </div>
+  </div>
+  <div id='page-footer' class="row">
+    <div class="large-4 large-centered columns">
+      <hr>
+      <div style="text-align: center;">Powered by <a target="_blank" href="https://clarusway.com/"><img src="logo1.png" alt="logo"></a></div>
+      </div>
+  </div>
+</div>
+</body>
+</html>
