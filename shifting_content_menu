@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<html>
+<head>
+  <script src="298279967.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Clarusway Practice</title>
+  <link href="app.css" rel="stylesheet">
+  <link href="font-awesome.css" rel="stylesheet">
+  <link href="registration.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<!--  <script src="jquery-1.11.3.min.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--  <script src="jquery-ui.js"></script>-->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="foundation.js"></script>
+  <script src="foundation.alerts.js"></script>
+  <script>
+      $(document).foundation();
+  </script>
+<!--  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js"></script>
+  
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-light">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="/">Home</a>
+    </li>
+  </ul>
+</nav>
+<div class="container">
+  <div class="row">
+    <div id="flash-messages" class="large-12 columns">
+    </div>
+  </div>
+  <div class="row">
+    <div id="content" class="large-12 columns">
+      <style>
+a {
+  color: #DA4B4B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 50px;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  background: #ececec;
+  padding: 0 20px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+}
+
+li a:hover {
+  background: #f2f2f2;
+  font-size: 20px;
+}
+
+.shift {
+  position: relative;
+  left: -25px;
+}
+</style>
+
+<div class='example'>
+  <h3>Shifting Content: Menu Element</h3>
+  <p>This example demonstrates a menu element shifting a few pixels in either direction on each page load.</p>
+
+  <p>To load it randomly, append <code>?mode=random</code> to the URL. Or <a href='/shifting_content/menu?mode=random'>click here</a>.</p>
+  <p>To specify a differant numbor of pixels to shift the example, append <code>?pixel_shift=100</code> to the URL. Or <a href='/shifting_content/menu?pixel_shift=100'>click here</a>.</p>
+  <p>To do both together, use <code>?mode=random&pixel_shift=100</code>. Or <a href='/shifting_content/menu?mode=random&pixel_shift=100'>click here</a>.</p>
+
+  <hr>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="page1.html">About</a></li>
+    <li><a href="page1.html">Contact Us</a></li>
+    <li><a href="page1.html">Portfolio</a></li>
+    <li><a href="page1.html" class='shift'>Gallery</a></li>
+  <ul>
+
+</div>
+
+    </div>
+  </div>
+  <div id='page-footer' class="row">
+    <div class="large-4 large-centered columns">
+      <hr>
+     <div style="text-align: center;">Powered by <a target="_blank" href="https://clarusway.com/"><img src="logo1.png" alt="logo"></a></div>
+      </div>
+  </div>
+</div>
+</body>
+</html>
