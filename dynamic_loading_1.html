@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<html>
+<head>
+  <script src="298279967.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Clarusway Practice</title>
+  <link href="/app.css" rel="stylesheet">
+  <link href="font-awesome.css" rel="stylesheet">
+  <link href="registration.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<!--  <script src="/js/vendor/jquery-1.11.3.min.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--  <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>-->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="foundation.js"></script>
+  <script src="foundation.alerts.js"></script>
+  <script>
+      $(document).foundation();
+  </script>
+<!--  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js"></script>
+  
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-light">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+  </ul>
+</nav>
+<div class="container">
+  <div class="row">
+    <div id="flash-messages" class="large-12 columns">
+    </div>
+  </div>
+  <div class="row">
+    <div id="content" class="large-12 columns">
+      <script>
+  $(function(){
+    $('#start button').click(function(){
+      $('#start').hide();
+      $('#start').before("<div id='loading'>Loading... <img src='https://media1.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif'></div>");
+      setTimeout(function() {
+        $('#loading').hide();
+        $('#finish').show();
+      } , 5000 );
+    });
+  });
+</script>
+
+<div class='example'>
+  <h3>Dynamically Loaded Page Elements</h3>
+  <h4>Example 1: Element on page that is hidden and become visible after trigger</h4>
+
+  <br>
+
+  <div id='start'>
+    <button class="btn btn-primary">Start</button>
+  </div>
+
+  <div id='finish' style='display:none'>
+    <h4>Hello World!</h4>
+  <h6>Enter <em>tomsmith</em> for the username and <em>SuperSecretPassword</em> for the password.</h6>
+  <br>
+  <form name="login" id="login" action="/authenticate_dynamic_loading_1" method="post" >
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="username">Username:</label>
+    <div class="col-sm-6">
+      <input type="username" class="form-control" id="username" name="username" placeholder="Enter username">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Password:</label>
+    <div class="col-sm-6"> 
+      <input type="password" class="form-control" id="pwd" name="password" placeholder="Enter password">
+    </div>
+  </div>
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</form>
+</div>
+</div>
+
+    </div>
+  </div>
+  <div id='page-footer' class="row">
+    <div class="large-4 large-centered columns">
+      <hr>
+      <div style="text-align: center;">Powered by <a target="_blank" href="https://clarusway.com/"><img src="logo1.png" alt="logo"></a></div>
+      </div>
+  </div>
+</div>
+</body>
+</html>
